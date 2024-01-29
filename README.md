@@ -1,4 +1,6 @@
-# HttpJobProcessing
+# HttpJobProcessing ![Elixir CI](https://github.com/ocraciun/http_job_processing/actions/workflows/elixir.yml/badge.svg)
+
+
 
 A http job processing service.
 
