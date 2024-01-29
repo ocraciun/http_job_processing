@@ -7,7 +7,16 @@ defmodule HttpJobProcessing.MixProject do
       version: "0.1.0",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+
+      # Docs
+      name: "HttpJobProcessing",
+      source_url: "https://github.com/ocraciun/http_job_processing",
+      homepage_url: "localhost:4001",
+      docs: [
+        main: "HttpJobProcessing",
+        extras: ["README.md"]
+      ]
     ]
   end
 
