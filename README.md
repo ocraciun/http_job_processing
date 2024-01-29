@@ -8,8 +8,10 @@ A job is a collection of tasks, where each task has a name and a shell command. 
 depend on other tasks and require that those are executed beforehand. The service takes care
 of sorting the tasks to create a proper execution order.
 
-## Installation
+## Installation and running
 ```bash
+git clone https://github.com/ocraciun/http_job_processing.git
+cd https_job_processing
 mix deps.get
 mix run --no-halt
 ```
