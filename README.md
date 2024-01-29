@@ -11,7 +11,7 @@ of sorting the tasks to create a proper execution order.
 ## Installation and running
 ```bash
 git clone https://github.com/ocraciun/http_job_processing.git
-cd https_job_processing
+cd http_job_processing
 mix deps.get
 mix run --no-halt
 ```
